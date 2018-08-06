@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/second_image" />
+
+    <ImageView
+        android:id="@+id/addressImage"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_place_black_24dp" />
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/addressImage"
+        android:autoLink="map"
+        android:gravity="center_vertical"
+        android:linksClickable="true"
+        android:text="rau pithampur road, Indore"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/websiteImage"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/addressImage"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_language_black_24dp" />
+
+    <TextView
+        android:id="@+id/websiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/addressText"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/websiteImage"
+        android:autoLink="web"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="www.lkct.com"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/callImage"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/websiteImage"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_call_black_24dp" />
+
+    <TextView
+        android:id="@+id/callText"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/websiteText"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/callImage"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:paddingBottom="0dp"
+        android:text="731-4081800"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/emailImage"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/callImage"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_email_black_24dp" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/callText"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/emailImage"
+        android:autoLink="email"
+        android:gravity="center"
+        android:text="lkct123@gmail.com"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>

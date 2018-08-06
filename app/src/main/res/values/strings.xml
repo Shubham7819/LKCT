@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LKCT</string>
+
+    <!--            contact page string literals            -->
+
+
+    <string name="courses">Courses</string>
+    <string name="gallery">Gallery</string>
+    <string name="faculty">Faculty</string>
+    <string name="facilities">Facilities</string>
+
+    <string name="contact">Contact us</string>
+    <string name="about">About us</string>
+    <string name="developers">Developers</string>
+
+    <!--            Faculty Designations            -->
+    <string name="principal">Principal</string>
+    <string name="registrar">Registrar</string>
+    <string name="account">Account Officer</string>
+    <string name="librarian">Librarian</string>
+    <string name="hod_cs">HOD(CSE)</string>
+    <string name="hod_ce">HOD(CIVIL)</string>
+    <string name="hod_ec">HOD(EC)</string>
+    <string name="hod_me">HOD(ME)</string>
+    <string name="assis_cs">Assistant Professor(CSE)</string>
+    <string name="assis_ce">Assistant Professor(CIVIL)</string>
+    <string name="assis_ec">Assistant Professor(EC)</string>
+    <string name="assis_me">Assistant Professor(ME)</string>
+
+    <!--            Faculty Designations            -->
+
+
+    <!--            Developer page string variables             -->
+    <string name="dev_name_1">Shubham Suryavanshi</string>
+    <string name="dev_email_1">shubham7819@gmail.com</string>
+    <string name="dev_name_2">Sanjay Karole</string>
+    <string name="dev_email_2">sanjaykarole545@gmail.com</string>
+    <string name="dev_name_3">Divya Pardeshi</string>
+
+    <string name="intro_heading">Introduction</string>
+    <string name="clg_intro">Lord Krishna College of Technology is an Institution devoted to imparting quality engineering and management education. LKCT was established in 2006, after securing approval of AICTE, New Delhi, and is affiliated to Rajiv Gandhi Praudyogiki Vishwavidyalaya(RGPV), Bhopal, the technical university of Madhya Pradesh for technical courses like MCA ,MBA, BE, M.TECH in various engineering disciplines.</string>
+    <string name="m_b_a">M.B.A.</string>
+    <string name="b_e">B.E.</string>
+    <string name="m_tech">M.Tech</string>
+</resources>
